@@ -14,3 +14,5 @@ command -v arc > /dev/null && {
   echo "Running arc lint ..."
   arc lint
 }
+
+###
