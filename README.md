@@ -1,9 +1,9 @@
 # Important
 
-My work here is only part of the project of my team. This work is still incomplete and is only for the use of my research group. I would try to make the code more complete and write a better readme before September. Sorry for the inconvenience if you are just someone who is very interested on my work.
+My work here is only part of the project of my team. This work is still incomplete and is only for the use of my research group. I would try to make the code more complete and write a better readme before September. Sorry for the inconvenience if you are just someone very interested in my work.
 
-I did some modifications of the original code of facebook's [Pyslowfast](https://github.com/facebookresearch/SlowFast). For any problem you encountered in the process of setting environment and running the demo, you can find the solutions in stack overflow, chatGPT, the issue section of [Pyslowfast](https://github.com/facebookresearch/SlowFast),etc..
-This code is specific on the Demo of Slowfast, the Kinetics dataset in particular. 
+I modified the original code of Facebook's [Pyslowfast](https://github.com/facebookresearch/SlowFast). For any problem you encountered in the process of setting environment and running the demo, you can find the solutions in stack overflow, chatGPT, the issue section of [Pyslowfast](https://github.com/facebookresearch/SlowFast), etc..
+This code is specific to the Demo of Slowfast, the Kinetics dataset in particular. 
 For convenience, I uploaded all the code including the original README underneath.
 
 
