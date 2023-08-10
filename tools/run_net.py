@@ -55,7 +55,7 @@ def main():
                 labbel_info = demo(cfg)
                 video_id = v.split('/')[-1] 
                 print(labbel_info, video_id)
-                f = open(video_id+".pk", 'wb')
+                f = open(video_id+".pkl", 'wb')
                 pk.dump(labbel_info, f)
                 f.close()
 
