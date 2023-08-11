@@ -8,7 +8,7 @@ For convenience, I uploaded all the code including the original README underneat
 
 ## Download files for Kinetics
 - [Kinetics class names json file](https://dl.fbaipublicfiles.com/pyslowfast/dataset/class_names/kinetics_classnames.json) this one is needed (I renamed this fileName.json)
-- [`SLOWFAST_8x8_R50.pkl`](https://dl.fbaipublicfiles.com/pyslowfast/model_zoo/kinetics400/SLOWONLY_8x8_R50.pkl)
+- [SLOWFAST_8x8_R50.pkl](https://dl.fbaipublicfiles.com/pyslowfast/model_zoo/kinetics400/SLOWONLY_8x8_R50.pkl)
 - [Kinetics parent-child class mapping](https://dl.fbaipublicfiles.com/pyslowfast/dataset/class_names/parents.json) I didn't use this one.
 
 # PySlowFast
