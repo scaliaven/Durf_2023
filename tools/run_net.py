@@ -48,8 +48,8 @@ def main():
             f = open("/Users/hongjiahuang/Desktop/videos_data.txt", "r")
             f.readline()
             temp = f.readlines()
-            videos = [v.split(",")[0] for v in temp][:1]
-
+            videos = [v.split(",")[0] for v in temp][:1]  # if videos is a list of path
+            videos = ["https://www.youtube.com/watch?v=VOAV5T6pcwg"] # if videos is a list of links
             for v in videos:
                 cfg.DEMO.INPUT_VIDEO = v
                 labbel_info = demo(cfg)

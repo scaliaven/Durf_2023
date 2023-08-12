@@ -8,6 +8,8 @@ import threading
 import time
 import cv2
 
+import yt_dlp as ydl
+
 import slowfast.utils.logging as logging
 from slowfast.visualization.utils import TaskInfo
 
@@ -35,6 +37,18 @@ class VideoManager:
 
         self.display_width = cfg.DEMO.DISPLAY_WIDTH
         self.display_height = cfg.DEMO.DISPLAY_HEIGHT
+
+        # Set up yt-dlp options
+        ydl_opts = {
+            'quiet': True,  # Suppress console output from yt-dlp
+            'format': 'best'  # Choose the best video quality
+        }
+
+        # Use yt-dlp to get the best video stream URL
+        with ydl.YoutubeDL(ydl_opts) as ydl_obj:
+            info_dict = ydl_obj.extract_info(self.source, download=False)
+            self.source = info_dict['url']
+
 
         self.cap = cv2.VideoCapture(self.source)
 
