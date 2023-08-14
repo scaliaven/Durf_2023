@@ -9,7 +9,7 @@ import pickle
 y = []
 string_lst = []
 
-f = open("/Users/hongjiahuang/Desktop/videos_data.txt", "r")
+f = open("videos_data.txt", "r")
 f.readline()
 for i in range(1):
     content = f.readline().split(",")
@@ -33,7 +33,7 @@ for i in range(1):
 
 f.close()
 
-f = open("/Users/hongjiahuang/Desktop/videos_data.txt", "r")
+f = open("videos_data.txt", "r")
 f.readline()
 for i in range(1):
     content = f.readline().split(",")

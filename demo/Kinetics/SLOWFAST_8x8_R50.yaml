@@ -68,10 +68,10 @@ OUTPUT_DIR: .
 
 DEMO:
   ENABLE: True
-  LABEL_FILE_PATH: "/Users/hongjiahuang/Desktop/fileName.json" # Path to json file providing class_name - id mapping.
+  LABEL_FILE_PATH: "fileName.json" # Path to json file providing class_name - id mapping.
   INPUT_VIDEO:  "" # Path to input video file.
   # INPUT_VIDEOS: ["/Users/hongjiahuang/Desktop/Durf/video/456.mp4"]
-  OUTPUT_FILE: "/Users/hongjiahuang/Desktop/testing.mp4" # Path to output video file to write results to.
+  OUTPUT_FILE: "testing.mp4" # Path to output video file to write results to.
                # Leave an empty string if you would like to display results to a window.
   THREAD_ENABLE: False # Run video reader/writer in the background with multi-threading.
   NUM_VIS_INSTANCES: 6 # Number of CPU(s)/processes use to run video visualizer.

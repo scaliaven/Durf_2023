@@ -45,7 +45,7 @@ def main():
 
         # Run demo.
         if cfg.DEMO.ENABLE:
-            f = open("/Users/hongjiahuang/Desktop/videos_data.txt", "r")
+            f = open("videos_data.txt", "r")
             f.readline()
             temp = f.readlines()
             videos = [v.split(",")[0] for v in temp][:1]  # if videos is a list of path
